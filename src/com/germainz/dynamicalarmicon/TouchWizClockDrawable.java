@@ -20,7 +20,7 @@ import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.RectF;
 
-class TouchWizClockDrawable extends ClockDrawable {
+public class TouchWizClockDrawable extends ClockDrawable {
     public TouchWizClockDrawable(int color, int hours, int minutes) {
         super(color, hours, minutes);
     }

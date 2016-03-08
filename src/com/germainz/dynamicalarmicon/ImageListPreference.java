@@ -31,6 +31,7 @@ import android.widget.ArrayAdapter;
 import android.widget.CheckedTextView;
 import android.widget.ImageView;
 import android.widget.ListAdapter;
+import cz.babi.android.xposed.dynamicalarmicon2.R;
 
 public class ImageListPreference extends ListPreference {
     private int[] mResourceIds = null;

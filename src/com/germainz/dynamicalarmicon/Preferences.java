@@ -36,6 +36,7 @@ import com.larswerkman.holocolorpicker.ColorPicker;
 import com.larswerkman.holocolorpicker.OpacityBar;
 import com.larswerkman.holocolorpicker.SaturationBar;
 import com.larswerkman.holocolorpicker.ValueBar;
+import cz.babi.android.xposed.dynamicalarmicon2.R;
 
 public class Preferences extends PreferenceActivity {
     private static final String PREF_SHOW_APP_ICON = "pref_show_app_icon";

@@ -16,10 +16,10 @@
   -->
 
 <resources>
-    <string name="app_name">DynamicAlarmIcon</string>
+    <string name="app_name">DynamicAlarmIcon 2</string>
     <string name="xposed_description">Macht, dass das Alarmicon die tatsächliche Weckzeit anzeigt</string>
     <string name="pref_support_title">Support</string>
-    <string name="pref_support_summary">DynamicAlarmIcon von GermainZ</string>
+    <string name="pref_support_summary">DynamicAlarmIcon 2 von baaabovka &amp; GermainZ</string>
     <string name="pref_clock_style_title">Uhrstyle</string>
     <string name="pref_clock_color_title">Uhrfarbe</string>
     <string name="pref_show_app_icon_title">Icon im Launcher zeigen</string>

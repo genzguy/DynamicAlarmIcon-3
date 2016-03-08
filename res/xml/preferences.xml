@@ -16,14 +16,14 @@
   -->
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-                  xmlns:app="http://schemas.android.com/apk/res/com.germainz.dynamicalarmicon">
+                  xmlns:app="http://schemas.android.com/apk/res/cz.babi.android.xposed.dynamicalarmicon2">
     <Preference
         android:key="pref_support"
         android:title="@string/pref_support_title"
         android:summary="@string/pref_support_summary">
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="http://forum.xda-developers.com/xposed/modules/dynamicalarmicon-t2828309"/>
+            android:data="http://forum.xda-developers.com/xposed/modules/mod-dynamicalarmicon-2-t3335890"/>
     </Preference>
 
     <Preference

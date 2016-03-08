@@ -20,13 +20,20 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.graphics.Color;
 
+import android.os.Build;
 import de.robv.android.xposed.XSharedPreferences;
 
 public class Config {
+    public static final boolean IS_MARSHMALLOW_OR_ABOVE = Build.VERSION.SDK_INT >= Build.VERSION_CODES.M;
+    public static final boolean IS_LOLLIPOP_OR_ABOVE = Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP;
+    public static final boolean IS_KITKAT_OR_ABOVE = Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT;
+    public static final boolean IS_JELLYBEANMR2_OR_ABOVE = Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR2;
+    public static final boolean IS_JELLYBEAN_OR_ABOVE = Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN;
+
     private static Config mInstance;
     private XSharedPreferences mXPreferences = null;
     private SharedPreferences mPreferences = null;
-    private static final String PACKAGE_NAME = "com.germainz.dynamicalarmicon";
+    private static final String PACKAGE_NAME = "cz.babi.android.xposed.dynamicalarmicon2";
     private static final String PREFS = PACKAGE_NAME + "_preferences";
     private static final String PREF_CLOCK_STYLE = "pref_clock_style";
     private static final String PREF_CLOCK_COLOR = "pref_clock_color";

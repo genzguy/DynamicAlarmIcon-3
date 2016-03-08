@@ -23,7 +23,7 @@ import android.graphics.PixelFormat;
 import android.graphics.RectF;
 import android.graphics.drawable.Drawable;
 
-class ClockDrawable extends Drawable {
+public class ClockDrawable extends Drawable {
 
     final Paint mPaint;
     int mHourAngle;
@@ -48,7 +48,7 @@ class ClockDrawable extends Drawable {
 
 		/* Clock's circle outline and middle dot */
         mPaint.setStyle(Paint.Style.STROKE);
-        mPaint.setStrokeWidth(radius / (XposedMod.IS_LOLLIPOP_OR_ABOVE ? 4f : 7f));
+        mPaint.setStrokeWidth(radius / (Config.IS_LOLLIPOP_OR_ABOVE ? 4f : 7f));
         canvas.drawCircle(x, y, radius, mPaint);
         canvas.drawCircle(x, y, radius / 20f, mPaint);
 
